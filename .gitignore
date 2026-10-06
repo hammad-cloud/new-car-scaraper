@@ -1,0 +1,14 @@
+# Secrets - never commit
+.env
+.env.*
+!env.example
+session.json
+
+# Local data / logs
+seen.db
+logs/
+
+# Python
+venv/
+__pycache__/
+*.pyc
